@@ -15,7 +15,7 @@ public class segment {
     {
         double d;
         d = Math.sqrt((B.getAbscisse()-A.getAbscisse())*(B.getAbscisse()-A.getAbscisse()) +(B.getOrdonée()-A.getOrdonée())*(B.getOrdonée()-A.getOrdonée()));
-        return d;
+        return d; /* tu peux utiliser Math.pow(a,b) a^2 */
     }
   public  segment Symetrie(){
     	return new segment(A.Symetrie(),B.Symetrie());
