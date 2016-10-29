@@ -17,7 +17,7 @@ public class cercle {
 		return rayon.distance()*2*3.14;}
 	
 	public cercle Symetrie(){
-	return new Cercle(o.Symetrie(),rayon.Symetrie());
+	return new Cercle(o.Symetrie(),rayon.Symetrie()); /* rayon ne change pas donc pas besoin de calculer sa symetrie()*/
 	}
 	public String toString() {
 		return  "centre =" + o + "," + "rayon =" + rayon;
